@@ -17,5 +17,6 @@ public class LoginTest extends BaseTests {
         Assert.assertEquals(secureAreaPage.getAlertText(), "You logged into a secure area!\n" +
                 "×", "Login error");
 
+
     }
 }
